@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+section {
+    display: flex;
+    margin: 70px auto 0;
+    width: 60vw;
+    
+}
+
+
+img {
+    margin: 30px 0 0 30px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+h1, p {
+    margin: 30px;
+}
+
+section div:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px; 
+}
+
+section div:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+section div:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+button {
+    margin: 30px;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.attribution {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+
+.attribution a:hover {
+    color: hsl(184, 100%, 22%);
+    text-decoration: underline;
+}
