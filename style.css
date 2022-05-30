@@ -10,8 +10,9 @@ section {
     display: flex;
     margin: 70px auto 0;
     width: 60vw;
-    
+    min-width: 600px;
 }
+
 
 
 img {
