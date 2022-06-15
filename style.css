@@ -83,21 +83,19 @@ button:hover {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     section {
         flex-wrap: wrap;
-        min-width: 200px;
-        gap: 20px;
+        min-width: 85vw;
+        
     }
 
     section div:nth-child(1) {
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0 ;
     }
-    section div:nth-child(2) {
-        border-radius: 10px;
-    }
+    
     section div:nth-child(3) {
-        border-radius: 10px;
+        border-radius: 0 0 10px 10px;
     }
 
     .attribution {
