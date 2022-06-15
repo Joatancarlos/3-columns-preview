@@ -83,7 +83,7 @@ button:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
     section {
         flex-wrap: wrap;
         min-width: 85vw;
